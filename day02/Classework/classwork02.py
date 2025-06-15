@@ -1,1 +1,5 @@
-# no clsswork
+print(777+777)
+print(666*777)
+print(9/9)
+print(999//999)
+print(0-0)
