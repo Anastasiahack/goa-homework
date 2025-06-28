@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+   <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  იმერეთი </title>
+</head>
+<body>
+    
+<header>
+    <nav>
+        <h1 id="logo"><a href="index.html">იმერეთი</a></h1>
+        <ul>
+            <li><a href="index.html">მთავარი</a></li>
+            <li><a href="blog.html">ბლოგი</a></li>
+            <li><a href="contact.html">კონტაქტი</a></li>
+            <li><a href="about.html">შესახებ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- კონტაქტის ფორმა  -->
+<form action="submit-form.php" method="POST">
+  <label for="name">სახელი:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">ელფოსტა:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="phone">ტელეფონი:</label><br>
+  <input type="tel" id="phone" name="phone" required><br><br>
+
+  <label for="message">შეტყობინება:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+  <button type="submit">გაგზავნა</button>
+</form>
+<h3>მეტი ინფორმაციისთვის დაგვიკავშირდით:</h3>
+<h3>+995 66 99 77</h3>
+
+</body>
+</html>
+

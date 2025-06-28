@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+
+#logo {
+
+    margin: 30px;
+    font-size: 40px;
+    background-color: rgb(239, 223, 3);
+    border: 3px solid black; 
+    border-radius: 10px;
+
+}
+
+#logo a {  
+    color:rgb(43, 0, 255);  
+    text-decoration:none; 
+    
+} 
+#logo:hover { 
+
+  background-color:antiquewhite;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 10px 40px;
+    background-color: yellow;
+    color: rgb(17, 15, 15);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+nav ul li a:hover {
+    background-color: #a8951d;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+
+
+
+img {
+
+    width: 600px; 
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+
+.boxed-text {
+  border: 2px solid #333; /* ჩარჩოს სისქე და ფერი */
+  padding: 15px;           /* შიდა სივრცე ტექსტისთვის */
+  margin: 20px;            /* გარე სივრცე სხვა ელემენტებისგან */
+  font-size: 18px;         /* ტექსტის ზომა */
+  text-align: center;      /* ტექსტის გალნაგება ცენტრში */
+  background-color:  rgb(222, 195, 230)     ; /* ფონური ფერი */
+  border-radius: 10px;     /* ჩარჩოს მომრგვალება */
+}
