@@ -1,0 +1,244 @@
+/* ძირითადი სტილი */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+}
+
+
+header {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 300px; /* Space between logo and ul */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 90px;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+nav ul li a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#logo {
+  height: 70px;
+  width: 200px; /* Adjusted for better fit */
+  margin-right: 10px; /* Optional spacing tweak */
+}
+
+#logo:hover{
+  transform: scale(1.03) ;
+  transition: all 0.3s ease;
+
+}
+
+/* ძირითადი სტილი */
+body {
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  font-weight: bold;
+}
+
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  transform: scale(1.05); /* ოდნავ გადიდდება */
+}
+
+
+
+
+.hero {
+  background: linear-gradient(to right, #a3cef1, #eff7ff);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: back 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #217dbb;
+}
+
+/* თემების ბლოკები */
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+.topic-card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.topic-card img {
+  width: 100%;
+  height: 300px; /* ან ნებისმიერი სასურველი სიმაღლე */
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+
+/*food.html⬇️ */
+.dert-pho {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+  /*food.html⬇️ */
+.desserts {
+  display: flex;           /* ჰორიზონტალურად განალაგებს შვილებს */
+  gap: 20px;               /* შუალედი თითოეულ ბლოკს შორის */
+  justify-content: center;/* ცენტრში გაასწორებს */
+  text-align: center;
+}
+
+.dessert img {
+  border-radius: 20px;
+}
+
+/*program.html ⬇️ */
+.underlined {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+  color: #e05dae;
+  font-size: 24px
+}
+
+
+  body {
+    font-family: sans-serif;
+    background: #fffaf5;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* სათაურების ცენტრში გასწორება */
+  .center-text {
+    text-align: center;
+    margin: 40px 0 20px;
+  }
+
+  /* მხოლოდ სათაურის ხაზის დამატება ვეგანურ სექციას */
+  .vegan-title {
+    border-bottom: 2px solid #2c7a2c;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+  }
+
+  /* სექციების კონტეინერი */
+  .desserts, .dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 20px;
+  }
+
+  /* თითოეული დესერტის და კერძის ბლოკი */
+  .dessert, .dish {
+    width: 300px;
+    text-align: center;
+  }
+
+  /* სურათები სრულად განლაგებული */
+  .dessert img, .dish img {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+  }
+
+
+
+  .Programming-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.Programming-row div {
+  max-width: 700px;
+  text-align: center;
+}
+
+.topics img:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: 1s;
+
+
+}
