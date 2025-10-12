@@ -1,8 +1,8 @@
 header {
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 10px 30px; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
 }
 
 
@@ -19,36 +19,50 @@ nav a {
   text-decoration: none;
   color: rgb(11, 11, 17);
   font-weight: bold;
-  
+
 }
 
- 
- 
-#logo:hover{
-  transform: scale(1.03) ;
-  transition: all 0.3s ease;}
 
-  #logo {
+
+#logo:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+#logo {
   height: 70px;
   width: 200px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
-  nav a {
+nav a {
   text-decoration: none;
   color: rgb(11, 11, 17);
   font-weight: bold;
-  font-size: 18px; /* ← ეს ხაზს ზრდის ტექსტის ზომას */
+  font-size: 18px;
+  /* ← ეს ხაზს ზრდის ტექსტის ზომას */
 }
 
-button{
+button {
   background-color: rgb(178, 214, 124);
-  width:300px;
+  width: 300px;
   height: 70px;
   font-size: 20px;
   margin: 20px;
 }
 
 
+h1{
+  text-align: center;
+}
 
 
 
+.button-container{
+  display: flex;          
+  justify-content: center; 
+  gap: 10px;                  
+  margin-top: 50px;   
+}
+
+ს

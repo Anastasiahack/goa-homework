@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- დოკუმენტის ტიპი: HTML5 -->
+<html lang="ka"> <!-- HTML დოკუმენტის ენა: ქართული -->
+<head>
+  <meta charset="UTF-8"> <!-- სიმბოლოების კოდირება: UTF-8 -->
+  <title>ტაქსის კომპანიის რეგისტრაცია</title> <!-- გვერდის სათაური -->
+
+  <!-- გარე სტილის ფაილის ჩასმა -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- რეგისტრაციის ფორმა -->
+  <form>
+    <h2>რეგისტრაცია</h2> <!-- ფორმის სათაური -->
+
+    <!-- მომხმარებლის სახელი და გვარი -->
+    <label for="name">სახელი და გვარი:</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- ტელეფონის ნომერი -->
+    <label for="phone">ტელეფონის ნომერი:</label>
+    <input type="tel" id="phone" name="phone" placeholder="5XX-XX-XX-XX" required>
+
+    <!-- ქალაქის არჩევა -->
+    <label for="city">ქალაქი:</label>
+    <select id="city" name="city" required>
+      <option value="">აირჩიეთ ქალაქი</option> <!-- ცარიელი არჩევანი -->
+      <option value="tbilisi">თბილისი</option>
+      <option value="batumi">ბათუმი</option>
+      <option value="kutaisi">ქუთაისი</option>
+      <option value="rustavi">რუსთავი</option>
+    </select>
+
+    <!-- მანქანის მარკის არჩევა -->
+    <label for="car">მანქანის მარკა:</label>
+    <select id="car" name="car" required>
+      <option value="">აირჩიეთ მანქანა</option> <!-- ცარიელი არჩევანი -->
+      <option value="toyota">Toyota</option>
+      <option value="hyundai">Hyundai</option>
+      <option value="kia">Kia</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="bmw">BMW</option>
+    </select>
+
+    <!-- სამუშაო გრაფიკის არჩევა -->
+    <label for="shift">სამუშაო გრაფიკი:</label>
+    <select id="shift" name="shift" required>
+      <option value="">აირჩიეთ გრაფიკი</option> <!-- ცარიელი არჩევანი -->
+      <option value="day">დღის ცვლა</option>
+      <option value="night">ღამის ცვლა</option>
+      <option value="flexible">მოქნილი</option>
+    </select>
+
+    <!-- რეგისტრაციის ღილაკი -->
+    <button type="submit">რეგისტრაცია</button>
+  </form>
+
+</body>
+</html>

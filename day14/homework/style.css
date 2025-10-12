@@ -1,0 +1,65 @@
+/* style.css */
+
+/* ჰედერი */
+header {
+  display: flex;
+  justify-content: flex-start; /* მარცხნივ განლაგება */
+  align-items: center;
+  padding: 30px 40px; /* მეტი სივრცე მარცხნივ და მარჯვნივ */
+  background-color: #f0f0f0;
+  gap: 450px; /* ლოგოსა და მენიუს შორის დაშორება */
+}
+
+
+
+/* მენიუს სია */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 120px; /* თანაბარი დაშორება ელემენტებს შორის */
+  margin: 0;
+  padding: 0;
+}
+
+/* მენიუს ბმულები */
+nav ul li a {
+  text-decoration: none;
+  color: #222; /* უფრო მუქი */
+  font-size: 25px; /* გაზრდილი ტექსტი */
+  font-weight: 700; /* უფრო გამოკვეთილი */
+}
+
+nav ul li a:hover {
+  color: #8a7389;
+  transform: translateY(-5px);
+  text-shadow: 0 0 10px #00d0ff;
+}
+
+
+.logo {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  color: #222; /* საწყისი ფერი */
+}
+
+/* ჰოვერის ეფექტი */
+.logo:hover {
+  color: #0077cc;                 /* ფერის ცვლილება */
+  text-decoration: underline;     /* ხაზის დამატება ქვემოთ */
+  transform: scale(1.05);         /* ოდნავ გადიდება */
+  text-shadow:                    /* ბრწყინვის ეფექტი */
+    0 0 8px #0077cc,
+    0 0 12px #66ccff;
+}
+
+/* ლოგო */
+.logo {
+  margin: 0;
+  font-size: 30px; /* ცოტა უფრო დიდი */
+  font-weight: bold; /* გამუქებული */
+}
+
+
+
