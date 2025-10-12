@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Departures Table for Workers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    td {
+      background-color: #fff;
+    }
+
+    .actions button {
+      padding: 5px 10px;
+      margin: 3px;
+      cursor: pointer;
+      border: none;
+      color: white;
+      border-radius: 5px;
+    }
+
+    .edit {
+      background-color: #4CAF50;
+    }
+
+    .delete {
+      background-color: #f44336;
+    }
+
+    .save {
+      background-color: #008CBA;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .form-container input {
+      padding: 8px;
+      margin: 5px;
+      width: 180px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .form-container button {
+      padding: 8px 12px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h2>Departures Table for Workers</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Train Company</th>
+          <th>Destination</th>
+          <th>Time</th>
+          <th>Platform</th>
+          <th>Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>Great Western</td>
+          <td>London</td>
+          <td>01:00:00</td>
+          <td>1</td>
+          <td>2017-01-31</td>
+          <td class="actions">
+            <button class="edit">edit</button>
+            <button class="delete">delete</button>
+            <button class="save">save</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>National</td>
+          <td>Exeter</td>
+          <td>23:03:00</td>
+          <td>3</td>
+          <td>2017-02-01</td>
+          <td class="actions">
+            <button class="edit">edit</button>
+            <button class="delete">delete</button>
+            <button class="save">save</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="form-container">
+      <input type="text" placeholder="Train Company">
+      <input type="text" placeholder="Destination">
+      <input type="time">
+      <input type="number" placeholder="Platform">
+      <input type="date">
+      <button>Insert Row</button>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Employee Table</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    thead {
+      background-color: #ede6ff;
+    }
+
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Employee</th>
+      <th>Age</th>
+      <th>Salary</th>
+      <th>Expenses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rayna Vetrova</td>
+      <td>23</td>
+      <td>$12.000</td>
+      <td>$6.000</td>
+    </tr>
+    <tr>
+      <td>Tiana Bergson</td>
+      <td>26</td>
+      <td>$18.000</td>
+      <td>$6.000</td>
+    </tr>
+    <tr>
+      <td>Angel Herwitz</td>
+      <td>34</td>
+      <td>$24.000</td>
+      <td>$9.000</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

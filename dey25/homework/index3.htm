@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Table in HTML</title>
+
+  <style>
+    /* გვერდის საერთო სტილი */
+    body {
+      font-family: Arial, sans-serif; /* ფონტი */
+      background-color: #ffffff;      /* თეთრი ფონი */
+      display: flex;                  /* ცენტრში განთავსება */
+      justify-content: center;
+      align-items: center;
+      height: 100vh;                  /* სრული ეკრანის სიმაღლე */
+      flex-direction: column;         /* სათაური ზემოთ, ცხრილი ქვემოთ */
+    }
+
+    /* გარე ჩარჩო */
+    .table-box {
+      border: 6px solid #c7cbd1;  /* რუხი საზღვარი */
+      background-color: white;    /* შიგნით თეთრი ფონი */
+      padding: 15px;              /* დაშორება შიგნიდან */
+    }
+
+    /* ცხრილის სტილი */
+    table {
+      border-collapse: collapse;  /* ხაზები ერთიანად გამოჩნდეს */
+      width: 300px;               /* ფიქსირებული სიგანე */
+      margin: 0 auto;
+    }
+
+    /* სათაურის უჯრები */
+    th {
+      background-color: #00e5ff;  /* ცისფერი ფონი */
+      color: black;               /* შავი ტექსტი */
+      padding: 8px 12px;          /* დაშორება */
+      border: 1px solid black;    /* შავი საზღვარი */
+      font-weight: bold;
+    }
+
+    /* ჩვეულებრივი უჯრები */
+    td {
+      border: 1px solid black;    /* შავი საზღვარი */
+      padding: 8px 12px;          /* დაშორება */
+      text-align: left;           /* მარცხნივ გასწორება */
+    }
+
+    /* სათაური ზედა */
+    h1 {
+      font-size: 36px;
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- გვერდის სათაური -->
+  <h1>Simple Table in HTML</h1>
+
+  <!-- ცხრილი რუხ ჩარჩოში -->
+  <div class="table-box">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Skill Set</th>
+      </tr>
+      <tr>
+        <td>Shreya</td>
+        <td>HTML, CSS</td>
+      </tr>
+      <tr>
+        <td>Aditya</td>
+        <td>SQL, C, C++</td>
+      </tr>
+      <tr>
+        <td>Kunal</td>
+        <td>Python, Ruby</td>
+      </tr>
+      <tr>
+        <td>Shivam</td>
+        <td>C, C++, Java</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>

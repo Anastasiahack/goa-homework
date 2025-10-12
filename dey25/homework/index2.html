@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+
+  <style>
+    /* ცხრილის საერთო სტილი */
+    table {
+      border-collapse: collapse; /* ხაზები არ იყოს ორმაგი */
+      width: 70%; /* ცხრილი ეკრანის 70% */
+      font-family: Arial, sans-serif; /* ფონტი */
+      margin: 30px auto; /* ცენტრში განთავსება */
+    }
+
+    /* სათაურის უჯრები */
+    th {
+      background-color: #f5a623; /* ნარინჯისფერი ფონური ფერი */
+      color: black; /* შავი ტექსტი */
+      padding: 10px; /* დაშორება */
+      text-align: left; /* ტექსტი მარცხნივ */
+      border: 1px solid #d19b00; /* საზღვარი */
+    }
+
+    /* მონაცემების უჯრები */
+    td {
+      background-color: #fff4cc; /* ღია ყვითელი ფონი */
+      padding: 10px; /* დაშორება */
+      border: 1px solid #d1c29b; /* საზღვარი */
+      text-align: left; /* ტექსტი მარცხნივ */
+    }
+
+    /* ზედა სათაური */
+    h2 {
+      text-align: left;
+      font-family: Arial, sans-serif;
+      margin-left: 15%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Table with Header and Background Color</h2>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Job Title</th>
+      <th>Email address</th>
+    </tr>
+    <tr>
+      <td>Anna Fitzgerald</td>
+      <td>Staff Writer</td>
+      <td>example@company.com</td>
+    </tr>
+    <tr>
+      <td>John Smith</td>
+      <td>Marketing Manager</td>
+      <td>example2@company.com</td>
+    </tr>
+    <tr>
+      <td>Zendaya Grace</td>
+      <td>CEO</td>
+      <td>example2@company.com</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
