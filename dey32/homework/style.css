@@ -1,0 +1,36 @@
+.img {
+    display: flex;
+    align-items:centers;
+    gap: 15px;
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(218, 46, 12);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.heding {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.css{
+    display: flex;
+    align-items:centers;
+    gap: px;
+    
+}
+
+

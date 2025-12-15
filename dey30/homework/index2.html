@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>მანქანის ვებსაიტი</title>
+    <style>
+        /* მთლიანი გვერდის სტილი */
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            scroll-behavior: smooth;
+            /* რბილი გადასვლა სექციებს შორის */
+        }
+
+        /* მენიუს სტილი */
+        nav {
+            background-color: #333;
+            /* მუქი ფერი მენიუსთვის */
+            padding: 10px;
+            position: fixed;
+            /* მენიუ ფიქსირდება ზედა ნაწილში */
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            /* სხვა ელემენტებზე წინ დგას */
+        }
+
+        /* მენიუს ბმულების სტილი */
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            /* ხაზის გარეშე */
+            font-weight: bold;
+        }
+
+        /* სექციების საერთო სტილი */
+        section {
+            padding: 200px 50px;
+            /* შიდა სივრცე */
+            height: 203vh;
+            /* ეკრანის სრული სიმაღლე */
+        }
+
+        /* თითოეული სექციის ფონის ფერი */
+        #home {
+            background-color: #f2f2f2;
+        }
+
+        #cars {
+            background-color: #e6f7ff;
+        }
+
+        #about {
+            background-color: #fff0f5;
+        }
+
+        #gallery {
+            background-color: #f9ffe6;
+        }
+
+        /* სათაურის სტილი */
+        h2 {
+            margin-top: 0;
+        }
+
+        .center-photo {
+            display: block;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- მენიუ ბმულებით -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <!-- მთავარი სექცია -->
+<section id="home">
+    <h1>მთავარი გვერდი :</h1>
+    <h3>მოგესალმებით მანქანების ვებსაიტზე !</h3>
+    <p>აქ თქვენ შეიტყობთ სხვადასხვა მანქანების მოდელებზე ინფორმაციას !</p>
+
+    <img src="EVO.png" alt="EVO" width="700" height="500" class="center-photo">
+</section>
+
+
+
+<!-- მანქანების სექცია -->
+<section id="cars">
+
+    <h2>მანქანები</h2>
+    <p>აქ ნახავთ სპორტული, კლასიკური და ელექტრო მანქანების კოლექციას.</p>
+
+    <!-- Defender 130 ნაწილი -->
+    <div style="display: flex; gap: 30px; align-items: flex-start; margin-top: 20px;">
+
+        <!-- ფოტო + ღილაკები -->
+        <div>
+            <img id="defenderImg" src="" width="600">
+
+            <br><br>
+
+            <button onclick="document.getElementById('defenderImg').src = 'photos/DEFENDER.png'">
+                პირველი
+            </button>
+
+            <button onclick="document.getElementById('defenderImg').src = 'photos/DEFENDER2.png'">
+                მეორე
+            </button>
+
+            <button onclick="document.getElementById('defenderImg').src = 'photos/DEFENDER3.png'">
+                მესამე
+            </button>
+        </div>
+
+        <!-- ტექსტი -->
+        <p style="max-width: 350px; font-size: 18px; line-height: 1.5;">
+            <b>Land Rover Defender 130 — მთავარი ფაქტები</b><br><br>
+            • 8-ადგილიანი — ყველაზე გრძელი Defender.<br><br>
+            • ძრავები: P300, P400 და V8 (ყველაზე ძლიერი).<br><br>
+            • სიგრძე: 5.36 მეტრი — მეტი სივრცისთვის.<br><br>
+            • გამავლობა: 900 მმ წყლის გადალახვა + ძლიერი AWD სისტემა.<br><br>
+            • სალონი: პრემიუმ ინტერიერი, 3 რიგი, თანამედროვე ტექნოლოგიები.<br><br>
+            • ფასი: იწყება ~69,000$-დან; V8 ვერსია ~116,000$.
+        </p>
+
+    </div>
+
+
+
+
+    <!-- EVO ნაწილი -->
+    <div style="display: flex; gap: 30px; align-items: flex-start; margin-top: 40px;">
+
+        <!-- ფოტო + ღილაკები -->
+        <div>
+            <img id="evoImg" src="" width="600">
+
+            <br><br>
+
+            <button onclick="document.getElementById('evoImg').src = 'EVO.png'">
+                პირველი
+            </button>
+
+            <button onclick="document.getElementById('evoImg').src = 'photos/EVO2.png'">
+                მეორე
+            </button>
+
+            <button onclick="document.getElementById('evoImg').src = 'EVO3.png'">
+                მესამე
+            </button>
+        </div>
+
+        <!-- ტექსტი -->
+        <p style="max-width: 350px; font-size: 18px; line-height: 1.5;">
+            Mitsubishi Lancer Evolution (EVO) — მთავარი ფაქტები<br><br>
+
+            Mitsubishi Lancer Evolution არის მაღალი წარმადობის სპორტული სედანი, შექმნილი რალის ჩემპიონატებისთვის (WRC).<br><br>
+
+            🔥 ძირითადი მონაცემები<br><br>
+            წარმოება: 1992–2016<br><br>
+            ძრავი: 2.0 ტურბო (4G63 — EVO I–IX, 4B11T — EVO X)<br><br>
+            ამძრავი: Super AWD + აქტიური დიფერენციალები<br><br>
+            სწრაფად აჩქარდება, შესანიშნავი მოსახვევებში, ტიუნინგისთვის იდეალური.<br><br>
+
+            🌟 ყველაზე პოპულარული თაობები<br><br>
+            EVO VI Tommi Mäkinen Edition (TME)<br><br>
+            EVO VIII–IX<br><br>
+            EVO X — ბოლო თაობა<br><br>
+
+            🛑 წარმოების დასრულება<br><br>
+            Mitsubishi-მ 2016 წელს შეწყვიტა EVO-ს ხაზი.<br><br>
+            ბოლო მოდელი იყო EVO X Final Edition.<br><br>
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+    <!-- ჩვენს შესახებ -->
+    <section id="about">
+        <h1>ვებსაიტის შესახებ :</h1>
+        <h2>ეს ვებსაიტი შექმნილია - მანქანების გალერიისთვის, ასევე საიტის მომხმარებლებს შეუძლიათ გაიგონ ინფორმაცია ,
+            სხვადასხვა მანქანის მოდელის შესახებ.</h2>
+    </section>
+
+    <!-- გალერეა -->
+    <section id="gallery">
+        <h2>გალერეა</h2>
+        <p>იხილეთ მანქანების ფოტოები .</p>
+    
+    <img src="lamborjin.png" alt="lamborjin" width="500" height="400">
+    <img src="mustang.png" alt="mustang" height="400">
+    <img src="sports.png" alt="sports" width="500" height="300">
+    <img src="klasika.png" alt="klasika">
+    </section>
+
+</body>
+
+</html>

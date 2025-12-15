@@ -1,0 +1,159 @@
+nav a {
+  background-color: #3ceb25;
+  /* ფონად ფერი */
+  color: rgb(8, 0, 0);
+  /* ტექსტის ფერი */
+  text-decoration: none;
+  /* ხაზის მოხსნა */
+  padding: 20px 50px;
+  /* ზომა */
+  border-radius: 8px;
+  /* მრგვალი კუთხე */
+  font-weight: bold;
+  /* გამუქება */
+  display: inline-block;
+  /* რომ padding იმუშაოს */
+  font-size: 24px;
+  margin: 30px;
+
+}
+
+.h1 {
+  text-align: center;
+}
+
+#potos {
+
+  display: block;
+  margin: 0 auto;
+}
+
+#potos2 {
+  display: block;
+  margin: 0 auto;
+}
+
+#potos3 {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.h1-2 {
+  text-align: center;
+}
+
+.photos11 {
+  display: block;
+  margin: 0 auto;
+}
+
+.photos12 {
+  display: block;
+  margin: 0 auto;
+}
+
+.photos12 {
+  display: block;
+  margin: 0 auto;
+}
+
+.photos13 {
+  display: block;
+  margin: 0 auto;
+}
+
+.photos21 {
+  display: block;
+  margin: 0 auto;
+}
+
+.h1-3 {
+  text-align: center;
+}
+
+.photos22 {
+  display: block;
+  margin: 0 auto;
+}
+
+.photos23 {
+  display: block;
+  margin: 0 auto;
+}
+
+.h1-4 {
+  text-align: center;
+}
+
+.photos31 {
+  display: block;
+  margin: 0 auto;
+}
+
+.h2-Algae {
+  text-align: center;
+}
+
+.h2-2-Algae {
+  text-align: center
+}
+
+.photos32 {
+  display: block;
+  margin: 0 auto;
+}
+
+.h2-3-Algae {
+  text-align: center
+}
+
+.photos33 {
+  display: block;
+  margin: 0 auto;
+}
+
+.h2-Flower {
+  text-align: center
+}
+
+.h2-2Flower {
+  text-align: center
+}
+
+.h2-3Flower {
+  text-align: center
+}
+
+
+.h2-Poisonous {
+  text-align: center
+}
+
+.photos41 {
+  display: block;
+  margin: 0 auto
+}
+
+.h2-2Poisonous {
+  text-align: center
+}
+
+.photos42 {
+  display: block;
+  margin: 0 auto
+}
+
+.h2-3Poisonous{
+  text-align: center
+}
+
+.photos43 {
+  display: block;
+  margin: 0 auto
+}
+
+.photos1 {
+  display: block;
+  margin: 0 auto
+}
