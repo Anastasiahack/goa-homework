@@ -1,0 +1,21 @@
+div {
+    border: 2px solid yellow;
+    width: 50%;
+}
+
+
+h1 {
+    border: 2px solid purple;
+    font-size: 60px;
+}
+
+img {
+    width: 65%;
+    border: 2px solid blue;
+}
+
+
+h1 u {
+    font-size: 85%;
+    border: 2px solid  green;
+}

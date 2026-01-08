@@ -1,0 +1,125 @@
+.div{
+    width:400px;
+    height: 250px;
+    background-color: #eaff05;
+}
+
+
+
+.p1{
+    color: rgb(248, 29, 0);
+}
+
+.p2{
+    color: rgb(30, 14, 249);
+}
+
+.p3{
+    color: rgb(233, 249, 14);
+}
+
+.p4{
+    color: #000;
+}
+
+.p5{
+    color: #21e113;
+}
+
+h2{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+  font-family: "Courier New";
+}
+
+/*კოდის პრაქტიკული მაგალითი*/
+
+.class1{
+    font-family:"Georgia";
+}
+
+.class2{
+    font-family:"Courier New";
+}
+
+
+
+
+.sparkle-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.neon-base {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #ff2fd1;
+
+  text-shadow:
+    0 0 3px rgba(255, 190, 230, 0.9),
+    0 0 8px rgba(255, 90, 200, 0.8),
+    0 0 18px rgba(255, 50, 180, 0.6),
+    0 0 36px rgba(180, 0, 130, 0.45);
+}
+
+/* ბრჭყვიალა ფენა */
+.sparkle-wrap::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  pointer-events: none;
+
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.9) 1px, transparent 2px),
+    radial-gradient(circle, rgba(255,180,230,0.9) 1px, transparent 2px),
+    radial-gradient(circle, rgba(255,120,210,0.8) 1px, transparent 2px);
+
+  background-size: 22px 22px, 28px 28px, 34px 34px;
+  background-position: 0 0, 10px 14px, 20px 6px;
+
+  animation: sparkle 2.5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes sparkle {
+  from { background-position:   0   0,  10px 14px,  20px  6px; }
+  to   { background-position: 120px 60px, 130px 80px, 150px 70px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
