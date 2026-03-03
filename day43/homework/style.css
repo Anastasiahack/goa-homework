@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    margin: 30px;
+
+}
+
+nav a {
+    background-color: #ffff00;
+    /* ღილაკის ფონური ფერი */
+    color: rgb(0, 0, 0);
+    /* ტექსტის ფერი */
+    border: 1px solid #dfe21f;
+    /* ბორდერი */
+    padding: 8px 16px;
+    /* შიდა დაშორება */
+    border-radius: 10px;
+    /* მომრგვალებული კუთხეები */
+    display: inline-block;
+    /* რომ ღილაკივით გამოჩნდეს */
+    cursor: pointer;
+    /* მაუსის კურსორი ღილაკის მსგავსად */
+}
+
+nav a:hover {
+    background-color: rgb(77, 18, 205);
+    /* ჰოვერის ეფექტი */
+}
+
+section{
+    padding: 60px 20px;
+}
