@@ -1,0 +1,29 @@
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #d6be82;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+}
+
+th {
+    text-align: left;
+}
+
+
+body{
+    background:#e5e5e5;
+    font-family: serif;
+}
+
+

@@ -1,3 +1,5 @@
+/* მენიუს ფუნქციები და დიზაინი */
+
 a {
     text-decoration: none;
     color: #000;
@@ -28,6 +30,150 @@ nav a:hover {
     /* ჰოვერის ეფექტი */
 }
 
-section{
+body {
+    padding-top: 150px;
+}
+
+.Menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    z-index: 1000;
+    background-color: white;
+    /* რომ კონტენტი არ ჩანდეს უკან */
+}
+
+/* მენიუს ფუნქციები და დიზაინი ⬆️*/
+
+
+/* სექცსიესბი სტილი*/
+section {
     padding: 60px 20px;
 }
+
+#section1 {
+    padding-top: 200px;
+    /* დაშორება ზედა მენიუსგან */
+    margin-top: -80px;
+    /* anchor link–ისთვის */
+}
+
+/* სექცსიესბი სტილი*⬆️/
+
+
+/*ოკიანის ცხრილის დიზაინი*/
+
+.ocean1 {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.ocean1 th,
+.ocean1 td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.ocean1 th {
+    background: #333;
+    color: #fff;
+}
+
+/* საფრთხის დონეები */
+
+.danger {
+    background: #ff9999;
+}
+
+.high {
+    background: #ffb366;
+}
+
+.medium {
+    background: #ffe699;
+}
+
+.low {
+    background: #99ff99;
+}
+
+/*ოკიანის ცხრილის დიზაინი*/
+
+
+
+/*პროგრამირების ცხრილის დიზაინი*/
+/* style.css */
+.binary-table {
+    width: 50%;
+    /* ცხრილის სიგანე */
+    border-collapse: collapse;
+    /* გაერთიანებული ბორდერები */
+    font-family: Arial, sans-serif;
+    border: 2px solid #000;
+    /* გარე ბორდერი */
+}
+
+.binary-table th {
+    border: 1px solid #000;
+    padding: 8px;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.binary-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.binary-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/*პროგრამირების ცხრილის დიზაინი*/
+
+
+/*მინერალების ცხრილის დიზაინი*/
+.mineral-table {
+    width: 40%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 2px solid #000;
+    /* გარე ბორდერი */
+}
+
+.mineral-table th,
+.mineral-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.mineral-table th {
+    background-color: #f2f2f2;
+}
+
+.mineral-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+
+/*მინერალების ცხრილის დიზაინი*/
+
+
+/*სათაურების სტილი*/
+.heding {
+    margin-top: 130px;
+    text-align: center;
+}
+
+
+.heding2 {
+    text-align: center;
+}
+
+/*სათაურების სტილი*/

@@ -4,17 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="index.html">მთავარი</a>
-        <a href="ebout.html">შესახებ</a>
-        <a href="contact.html">კონტაქტი</a>
-    </nav>
+    <header>
+        <nav class="Menu">
+            <a href="index.html">მთავარი</a>
+            <a href="about.html">შესახებ</a>
+            <a href="contact.html">კონტაქტი</a>
+            <a href="#section1">ოკიანე</a>
+            <a href="#section2">პროგრამირება</a>
+            <a href="#section3">მინერალები</a>
+            <a href="#section4">ანბანის დამწერლობები</a>
+            <a href="#section5">სამკურნალო მცენარეები</a>
+        </nav>
+    </header>
+
+
+
+
 
 
     <section id="section1">
@@ -23,11 +34,188 @@
         <img src="რვაფეხა.jpg" alt="რვაფეხა" width="300" height="500">
         <img src="მარჯანი.png" alt="მარჯანი" width="800" height="500">
         <img src="ზღვისვარსკვლავი.png" alt="ზღვისვარსკვლავი" width="600" height="500">
+
+        <table class="ocean1">
+            <thead>
+                <tr>
+                    <th>მეთოდი</th>
+                    <th>როგორ მუშაობს</th>
+                    <th>ეკოსისტემისთვის საფრთხე</th>
+                    <th>კონკრეტული ზიანი გარემოსთვის</th>
+                    <th>პროდუქტიულობა / დაჭერის მოცულობა</th>
+                    <th>მთავარი გამოყენება / თევზი</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr class="danger">
+                    <td>Bottom Trawling (ფსკერული ტრავლინგი)</td>
+                    <td>გემი დიდი ბადით ფსკერს მიათრევს</td>
+                    <td>ძალიან მაღალი</td>
+                    <td>ანგრევს მარჯნებს, წყალქვეშა მცენარეებს და ზღვის ფსკერის ჰაბიტატებს</td>
+                    <td>ძალიან მაღალი</td>
+                    <td>თევზი, კიბორჩხალა, ლობსტერი</td>
+                </tr>
+
+                <tr class="high">
+                    <td>Drift Net (დრიფტის ბადე)</td>
+                    <td>გრძელი ბადე ტივტივებს და დინებას მიჰყვება</td>
+                    <td>მაღალი</td>
+                    <td>დელფინები, ზვიგენები, ზღვის კუები ხშირად ხვდებიან ბადეში</td>
+                    <td>საშუალო</td>
+                    <td>სარდინა, სკუმბრია, ანჩოუსი</td>
+                </tr>
+
+                <tr class="medium">
+                    <td>Purse Seine</td>
+                    <td>ბადე გარშემო ეხვევა თევზის გუნდს და ქვემოდან იკვრება</td>
+                    <td>საშუალო</td>
+                    <td>ზოგჯერ bycatch და თევზის მარაგებზე ზეწოლა</td>
+                    <td>ძალიან მაღალი</td>
+                    <td>ტუნა, სარდინა, სკუმბრია</td>
+                </tr>
+
+                <tr class="medium">
+                    <td>Midwater Trawling</td>
+                    <td>ბადის თრევა წყლის შუა ფენაში</td>
+                    <td>საშუალო</td>
+                    <td>ფსკერს ნაკლებ ზიანს აყენებს მაგრამ bycatch შესაძლებელია</td>
+                    <td>საშუალო</td>
+                    <td>სკუმბრია, ტუნა</td>
+                </tr>
+
+                <tr class="medium">
+                    <td>Gillnet</td>
+                    <td>დგომის ბადე წყალში</td>
+                    <td>საშუალო</td>
+                    <td>ზღვის კუები და ფრინველები ხვდებიან</td>
+                    <td>საშუალო</td>
+                    <td>სკუმბრია, კალმარი</td>
+                </tr>
+
+                <tr class="medium">
+                    <td>Longline</td>
+                    <td>გრძელი თოკი ასობით კაუჭით</td>
+                    <td>საშუალო</td>
+                    <td>ზვიგენები და ზღვის ფრინველები bycatch</td>
+                    <td>შედარებით მცირე</td>
+                    <td>ტუნა</td>
+                </tr>
+
+                <tr class="low">
+                    <td>Trap / Pot</td>
+                    <td>ხაფანგები წყალში ტოვებენ</td>
+                    <td>დაბალი</td>
+                    <td>მიზნობრივი დაჭერა, მინიმალური bycatch</td>
+                    <td>მცირე</td>
+                    <td>კიბორჩხალა, ლობსტერი</td>
+                </tr>
+
+                <tr class="low">
+                    <td>Pole & Line</td>
+                    <td>კაუჭით თევზის დაჭერა</td>
+                    <td>ძალიან დაბალი</td>
+                    <td>ეკოსისტემას პრაქტიკულად არ აზიანებს</td>
+                    <td>ძალიან მცირე</td>
+                    <td>ტუნა</td>
+                </tr>
+
+                <tr class="low">
+                    <td>Handline / Jigging</td>
+                    <td>ხელით კაუჭით თევზის დაჭერა</td>
+                    <td>ძალიან დაბალი</td>
+                    <td>ზიანი თითქმის არ არსებობს</td>
+                    <td>ძალიან მცირე</td>
+                    <td>დიდი თევზი</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
     </section>
+
+
+
+
 
     <section id="section2">
         <img src="ბაინარი1.png" alt="ბაინარი1" width="600" height="500">
         <img src="ბაინარ2.jpg" alt="ბაინარ2" width="600" height="500">
+
+
+        <h3>ASCLL CODE : CHARACTER TO BINARY</h3>
+
+
+        <table class="binary-table">
+            <tr>
+                <th>Decimal (ათწილადი) </th>
+                <th>Binary (ბინარული)</th>
+            </tr>
+
+            <tr>
+                <td>0</td>
+                <td>00000000</td>
+
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>00000001</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>00000010</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>00000011</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>00000100</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>00000101</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>00000110</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>00000111</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>00001000</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>00001001</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>00001010</td>
+            </tr>
+
+
+
+
+
+
+        </table>
     </section>
 
     <section id="section3">
@@ -36,18 +224,408 @@
         <img src="მინერალები3.png" alt="მინერალები3" width="1400" height="900">
 
 
+        <table class="mineral-table">
+            <tr>
+                <th>№</th>
+                <th>მინერალი</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>კვარცი</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>აქატი</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ოქრო</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ვერცხლი</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>სპილენძი</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>კაჟი</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>ოპალი</td>
+            </tr>
+        </table>
 
 
     </section>
 
 
+    <section id="section4">
+        <img src="ასომთავრული.png" alt="ასომთავრული" width="300" height="300">
+        <img src="ქართული.png" alt="ქართული" width="600" height="300">
+        <img src="ანბანი.png" alt="ანბანი" width="500" height="300">
 
 
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>ასომტავრული</th>
+                    <th>ნისხური</th>
+                    <th>მხხედრული</th>
+                    <th>ხუცური</th>
+                    <th>რიცხვითი მნიშვნელობა</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ა</td>
+                    <td>Ⴀ</td>
+                    <td>ⴀ</td>
+                    <td>ა</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ბ</td>
+                    <td>Ⴁ</td>
+                    <td>ⴁ</td>
+                    <td>ბ</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>გ</td>
+                    <td>Ⴂ</td>
+                    <td>ⴂ</td>
+                    <td>გ</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>დ</td>
+                    <td>Ⴃ</td>
+                    <td>ⴃ</td>
+                    <td>დ</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>ე</td>
+                    <td>Ⴄ</td>
+                    <td>ⴄ</td>
+                    <td>ე</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>ვ</td>
+                    <td>Ⴅ</td>
+                    <td>ⴅ</td>
+                    <td>ვ</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>ზ</td>
+                    <td>Ⴆ</td>
+                    <td>ⴆ</td>
+                    <td>ზ</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>თ</td>
+                    <td>Ⴇ</td>
+                    <td>ⴇ</td>
+                    <td>თ</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>ი</td>
+                    <td>Ⴈ</td>
+                    <td>ⴈ</td>
+                    <td>ი</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>კ</td>
+                    <td>Ⴉ</td>
+                    <td>ⴉ</td>
+                    <td>კ</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>ლ</td>
+                    <td>Ⴊ</td>
+                    <td>ⴊ</td>
+                    <td>ლ</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>მ</td>
+                    <td>Ⴋ</td>
+                    <td>ⴋ</td>
+                    <td>მ</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>ნ</td>
+                    <td>Ⴌ</td>
+                    <td>ⴌ</td>
+                    <td>ნ</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>ო</td>
+                    <td>Ⴍ</td>
+                    <td>ⴍ</td>
+                    <td>ო</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td>პ</td>
+                    <td>Ⴎ</td>
+                    <td>ⴎ</td>
+                    <td>პ</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td>ჟ</td>
+                    <td>Ⴏ</td>
+                    <td>ⴏ</td>
+                    <td>ჟ</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td>რ</td>
+                    <td>Ⴐ</td>
+                    <td>ⴐ</td>
+                    <td>რ</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>90</td>
+                    <td>ს</td>
+                    <td>Ⴑ</td>
+                    <td>ⴑ</td>
+                    <td>ს</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>ტ</td>
+                    <td>Ⴒ</td>
+                    <td>ⴒ</td>
+                    <td>ტ</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>200</td>
+                    <td>უ</td>
+                    <td>Ⴓ</td>
+                    <td>ⴓ</td>
+                    <td>უ</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>ფ</td>
+                    <td>Ⴔ</td>
+                    <td>ⴔ</td>
+                    <td>ფ</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>400</td>
+                    <td>ქ</td>
+                    <td>Ⴕ</td>
+                    <td>ⴕ</td>
+                    <td>ქ</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>500</td>
+                    <td>ღ</td>
+                    <td>Ⴖ</td>
+                    <td>ⴖ</td>
+                    <td>ღ</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>600</td>
+                    <td>ყ</td>
+                    <td>Ⴗ</td>
+                    <td>ⴗ</td>
+                    <td>ყ</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>700</td>
+                    <td>შ</td>
+                    <td>Ⴘ</td>
+                    <td>ⴘ</td>
+                    <td>შ</td>
+                    <td>700</td>
+                </tr>
+                <tr>
+                    <td>800</td>
+                    <td>ჩ</td>
+                    <td>Ⴙ</td>
+                    <td>ⴙ</td>
+                    <td>ჩ</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>900</td>
+                    <td>ც</td>
+                    <td>Ⴚ</td>
+                    <td>ⴚ</td>
+                    <td>ც</td>
+                    <td>900</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td>ძ</td>
+                    <td>Ⴛ</td>
+                    <td>ⴛ</td>
+                    <td>ძ</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>წ</td>
+                    <td>Ⴜ</td>
+                    <td>ⴜ</td>
+                    <td>წ</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>3000</td>
+                    <td>ჭ</td>
+                    <td>Ⴝ</td>
+                    <td>ⴝ</td>
+                    <td>ჭ</td>
+                    <td>3000</td>
+                </tr>
+                <tr>
+                    <td>4000</td>
+                    <td>ხ</td>
+                    <td>Ⴞ</td>
+                    <td>ⴞ</td>
+                    <td>ხ</td>
+                    <td>4000</td>
+                </tr>
+                <tr>
+                    <td>5000</td>
+                    <td>ჯ</td>
+                    <td>Ⴟ</td>
+                    <td>ⴟ</td>
+                    <td>ჯ</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>6000</td>
+                    <td>ჰ</td>
+                    <td>Ⴠ</td>
+                    <td>ⴠ</td>
+                    <td>ჰ</td>
+                    <td>6000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 
+    <section id="section5">
+        <img src="ბაბუაწვერა.png" alt="ბაბუაწვერა" width="400" height="500">
+        <img src="ყვითელი.png" alt="ყვითელი" width="500" height="500">
+        <img src="ჯინჭარი.png" alt="ჯინჭარი">
+        <img src="მარიხუანა.png" alt="მარიხუანა" width="700" height="500">
+        <img src="პიტნა.png" alt="პიტნა" width="600" height="500">
 
 
+        <table border="1" cellpadding="8" style="border-collapse:collapse; font-family:Arial,sans-serif; width: 100%;">
+            <thead >
+                <tr style="background-color: #d4f1f9;">
+                    <th>მცენარე</th>
+                    <th>სამკურნალო თვისება/მოქმედება</th>
+                    <th>გამოყენების წესი</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ბაბუაწვერა</td>
+                    <td>ანთების საწინააღმდეგო, ტკივილგამაყუჩებელი</td>
+                    <td>ჩაი, ნახარში, მალამო</td>
+                </tr>
+                <tr>
+                    <td>პიტნა</td>
+                    <td>ორგანიზმის დამშვიდების ეფექტით გამოირჩევა</td>
+                    <td>ჩაი, ნაყენი</td>
+                </tr>
+                <tr>
+                    <td>ქონდარი</td>
+                    <td>ენერგიის მომმატებელი, იმუნიტეტის გამაძლიერებელი</td>
+                    <td>ჩაი, ნაყენი</td>
+                </tr>
+                <tr>
+                    <td>გვირილა</td>
+                    <td>დამამშვიდებელი, ანტიბაქტერიული ეფექტი</td>
+                    <td>ჩაი, </td>
+                </tr>
+                <tr>
+                    <td>მრავალძარღვა</td>
+                    <td>სისხლის მიმოქცევის გაუმჯობესება, ტკივილგამაყუჩებელი</td>
+                    <td>ნაყენი, მალამო</td>
+                </tr>
+                <tr>
+                    <td>ჯინჭარი</td>
+                    <td> იმუნიტეტის გაძლიერება</td>
+                    <td>ჩაი, ინფუზია</td>
+                </tr>
+                <tr>
+                    <td>დანდური</td>
+                    <td>ანთების საწინააღმდეგო, ღვიძლის გაძლიერება</td>
+                    <td>ნაყენი, ჩაი</td>
+                </tr>
+                <tr>
+                    <td>აიაი</td>
+                    <td>ნერვული სისტემის სტიმულატორი, ენერგიის აღდგენა</td>
+                    <td>ნაყენი, ჩაი</td>
+                </tr>
+                <tr>
+                    <td>დაფნა</td>
+                    <td>სისხლის წნევის რეგულირება, ანთების შემცირება</td>
+                    <td>ჩაი, ნაყენი, სალათებში</td>
+                </tr>
+                <tr>
+                    <td>ალოე</td>
+                    <td>კანის შეხორცება, ჰიდრატაცია, ანთების შემცირება</td>
+                    <td>გელი, ნაყენი, კომპრესები</td>
+                </tr>
+                <tr>
+                    <td>კაკტუსი</td>
+                    <td>ანტიოქსიდანტი, კანისა და საკვების მონელების გაუმჯობესება</td>
+                    <td>ნაყოფი, ნაყენი, ჩაის სახით</td>
+                </tr>
+            </tbody>
+        </table>
 
+    </section>
 
 
 
