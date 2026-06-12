@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.div1 {
+    border: solid 6px yellow;
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+.conteiner{
+    border: solid 6px rgb(16, 226, 149);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 900px;
+    height: 300px;
+}
+

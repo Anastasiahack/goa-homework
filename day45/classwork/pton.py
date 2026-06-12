@@ -7,3 +7,8 @@ def is_adult(age):
         print("Minor")    
 
 print(is_adult(23))
+
+
+
+
+

@@ -1,0 +1,25 @@
+input[type="message"]{
+    width: 200px;
+    height: 120px;
+    
+}
+
+
+
+
+div {
+    width: 500px;
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 490px;
+    background: #dcdcdc;
+    border-radius: 10px;
+}
+
+label{
+    color: rgb(104, 204, 204);
+}
+
+h1{
+    color: rgb(6, 107, 107);
+}

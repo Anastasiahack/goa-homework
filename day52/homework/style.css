@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+    
+}
+
+.home_div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.conteiner1{
+    color: aliceblue;
+    background: rgb(11, 204, 218);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+
+.conteiner2{
+    color: aliceblue;
+    background: yellow;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    
+
+}
+
+.div_999{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+
+.div1{
+    color: aliceblue;
+    background: rgb(181, 49, 97);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+
+}
+
+
+.div2{
+    color: aliceblue;
+    background: rgb(13, 22, 106);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+
+}
+.div3{
+    color: aliceblue;
+    background: rgb(130, 44, 145);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.div_p{
+    display: flex;
+    flex-direction: row;
+    color: rgb(11, 111, 111);
+    background-color: aqua;
+    width: 400px;
+    height: 150px;
+    gap: 19px;
+
+}
+
+.div_A{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(210, 196, 46);
+    width: 700px;
+    height: 450px;
+
+}
+
+.div_A p{
+    color: rgb(30, 14, 67);
+}
+
+
+.parent_div{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+
+}
+
+.parent_div div{
+    background-color: rgb(40, 154, 130);
+    width: 300px;
+    height: 150px;
+    text-align: center;
+
+}
+
+.div_El{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    
+    
+}
+
+.a{
+    text-align: center;
+      background-color: rgb(196, 51, 10);
+       width: 300px;
+    height: 150px;
+
+}
+
+.b{
+    text-align: center;
+      background-color: rgb(18, 107, 112);
+       width: 300px;
+    height: 150px;
+
+
+}
+
+
+.div_A2{
+    display: flex;
+    flex-direction:row;
+    margin: 15px;
+    gap: 23px;
+    
+    
+    
+}
+
+.AL{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(34, 73, 124);
+
+}
+
+.AB{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(106, 177, 71);
+
+}

@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* დავალება 1 */
+
+.class1 {
+    border: 2px solid black;
+    padding: 100px 100px 100px 100px;
+}
+
+/* დავალება 1 */
+
+
+/* დავალება 2 */
+
+.class2 {
+    border: 2px solid black;
+    padding: 200px 100px 200px 100px;
+}
+
+
+button1 {
+    padding: 20px 34px 20px 34px;
+    color: #2caf0f;
+    margin: 100px 600px;
+
+}
+
+/* დავალება 2*/
+
+/* დავალება 3*/
+
+.class3 {
+    border: 2px solid black;
+    padding: 30px 50px 90px 100px;
+    height: 578px;
+
+
+}
+
+img {
+    margin: 149px 0px 0px 439px;
+}
+
+/* დავალება 3*/
+
+
+
+
+/* დავალება 4*/
+
+div {
+    border: 2px solid black;
+    padding-bottom: 100px;
+
+
+}
+
+.button2 {
+    padding-bottom: 30px;
+
+}
+
+/* დავალება 4*/
+
+
+/* დავალება 5*/
+
+.input1 {
+    border: 5px solid green;
+    margin-top: 78px;
+}
+
+
+/* დავალება 5*/
+
+
+/* დავალება 6*/
+
+.input2 {
+    background-color: blueviolet;
+    margin: 100px 0px 0px 650px;
+}
+
+
+
+div {
+    border-top: 5px solid rgb(255, 0, 242);
+    /* ზედა მხარე */
+    border-right: 2px dashed blue;
+    /* მარჯვენა მხარე */
+    border-bottom: 10px double rgb(79, 6, 148);
+    /* ქვედა მხარე */
+    border-left: 4px dotted rgb(255, 230, 0);
+    /* მარცხენა მხარე */
+}
+
+
+/* დავალება 6*/
+
+/* დავალება 7*/
+
+.class7{
+    border: 2px solid #000000;
+}
+
+.button3{
+
+    border-top: 2px solid fuchsia;
+    border-bottom: 2px solid lawngreen;
+    border-left: 2px solid turquoise;
+    border-right: 2px solid khaki;
+    padding: 50px 40px 50px 40px ;
+
+
+}
+
+
+/* დავალება 7*/
+
+
