@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+}
+
+.card:hover{
+    transform: scale(1.5) rotate(10deg) translateY(50px)
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Conteiner8{
+    height: 500px;
+    width: 500px;
+    background: url('natyre.jpeg') no-repeat center / cover ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner8Child{
+    height: 250px;
+    width: 250px;
+    background: url('natyre.jpeg') no-repeat center / cover ;
+}

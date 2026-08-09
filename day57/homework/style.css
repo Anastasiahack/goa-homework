@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.S {
+  position: relative;
+  width: 320px;
+  height: 340px;
+
+}
+
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+
+.first {
+  background-color: rgba(185, 55, 199, 0.9);
+  top: 20px;
+  left: 20px;
+}
+
+
+.second {
+  background-color: rgba(0, 162, 232, 0.8);
+  top: 80px;
+  left: 130px;
+}
+
+
+.Third {
+  background-color: rgba(34, 139, 34, 0.9);
+  top: 180px;
+  left: 65px;
+  z-index: -34;
+}
+
+
+/*დავლება #2*/
+
+/* .body2{
+  
+} */
+
+.d1 {
+  border: 2px solid slateblue;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 8px;
+  position: absolute;
+  top: 56px;
+  left: 15px;
+
+}
+
+
+.d2 {
+  border: 2px solid slateblue;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(21, 115, 253);
+  border-radius: 8px;
+  position: absolute;
+  top: 135px;
+  left: 89px;
+  z-index: 1;
+
+}
+
+
+
+
+
+.d3 {
+  border: 2px solid slateblue;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(28, 122, 50);
+  border-radius: 8px;
+
+  position: absolute;
+  top: 185px;
+  left: 149px;
+}

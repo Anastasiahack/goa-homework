@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    width: 300px;
+    height: 420px;
+    border: 3px solid black;
+    border-radius: 9px;
+    background: url('Rainbow.png') no-repeat center / contain ;
+
+}
+
+

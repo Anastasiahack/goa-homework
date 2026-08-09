@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner {
+
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    background: url('python.png') left top/ 100px no-repeat ;
+    
+    
+
+}

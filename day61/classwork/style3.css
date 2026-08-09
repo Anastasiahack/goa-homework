@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: width 1s linear 3s, height 1s , linear 3s;
+    transition-delay: 3s;
+
+}
+
+.div1:hover {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+}
+

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div_hover2{
+    background: linear-gradient(rgb(186, 220, 18) , rgb(6, 253, 199) ,  rgb(78, 13, 240));
+    height: 400px;
+    width: 400px;
+    
+    
+}
+
+.div_hover2:hover{
+    transform: scale(0.5) translate( -50px) skewY(50deg)
+}

@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+1)შექმენი div, რომელსაც hover-ზე:
+background-color შეიცვლება 0.3 წამში 
+ზომა გაიზრდება 0.6 წამში 
+rotate მოხდება 1 წამში 
+delay ქონდეს 3s */
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: #3498db;
+    transition:
+        background-color 0.3s ease 3s,
+        transform 0.6s ease 3s;
+}
+
+
+.box:hover {
+    background-color: #0a1176;
+    transform: scale(1.2) rotate(45deg);
+}
+
+
+/* 2)შექმენი ღილაკი (button), რომელსაც hover-ზე: ტექსტის ფერი შეიცვალოს 0.2s border-radius გაიზარდოს 0.5s background
+  შეიცვალოს 0.7s background-ის transition დაიწყოს 0.3s დაგვიანებით */
+
+
+.custom-button {
+
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #45db34;
+    color: #34dbd3;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: color 0.2s ease, border-radius 0.5s ease, background-color 0.7s ease 0.3s;
+}
+
+
+.custom-button:hover {
+    color: #043ab1;
+    border-radius: 30px;
+    background-color: yellow;
+
+}
+
+
+
+
+/*
+3)შექმენი card, რომელსაც hover-ზე:
+translateY(-20px) შესრულდეს 0.4s
+box-shadow დაემატოს 0.8s
+scale გაიზარდოს 0.5s*/
+
+
+.card {
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgb(15, 1, 1);
+    border-radius: 9px;
+    transition: transform 0.6s ease, box-shadow 0.8s ease;
+    background: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+    transform: translateY(-20px) scale(1.5);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*4)შექმენი ფოტო (img), რომელსაც hover-ზე:
+opacity შემცირდეს 0.5s
+scale გაიზარდოს 0.7s
+rotate შესრულდეს 1.2s
+rotate-ზე გამოიყენე 0.4s delay*/
+
+
+.image {
+    width: 400px;
+    height: 360;
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+    transition: opacity 0.5s ease, transform 0.7s ease;
+    border-radius: 8px;
+
+}
+
+.image:hover {
+    opacity: 0.5;
+    transform: scale(1.1) rotate(15deg);
+    transition: opacity 0.5s ease, scale 0.7s ease, rotate 1.2s ease 0.4s;
+}
+
+
+
+
+/*5)შექმენი navbar-ის ლინკები, სადაც hover-ზე:
+ტექსტის ფერი შეიცვალოს1.2s
+underline effect გამოჩნდეს 1s
+ტექსტი გაიზარდოს 0.3s
+*/
+
+.navbar {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 1.2s ease, font-size 0.3s ease, text-decoration 1s ease;
+}
+
+
+a:hover {
+    color: #321495;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+
+/*6)შექმენი box, რომელსაც :active დროს:
+scale შემცირდეს 0.15s
+rotate შესრულდეს 2.4s
+background-color შეიცვალოს 1.3s*/
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #dad459;
+    border-radius: 20px;
+    transition: transform 0.2s ease, background-color 0.4s ease;
+}
+
+.box:active {
+    transform: scale(0.9) rotate(45deg);
+    background-color: #ff7300;
+
+}
+
+
+
+
+/*7)შექმენი loading-style box, რომელსაც hover-ზე:
+rotate(360deg) შესრულდეს 1.5s
+border-radius გახდეს 50% 0.5s-ში
+background-color შეიცვალოს 0.4s*/
+
+
+.loading-box {
+    width: 250px;
+    height: 250px;
+    background-color: #321495;
+    border-radius: 10px;
+    transition: transform 1.5s ease, border-radius 0.5s ease, background-color 0.4s ease;
+}
+
+
+.loading-box:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    background-color: #ffcc00;
+}
+
+/*8)შექმენი animated button:
+scale გაიზარდოს 0.3s
+box-shadow გაფართოვდეს 0.7s
+ტექსტის ფერი შეიცვალოს 0.2s
+shadow effect დაიწყოს 0.1s delay-ით
+*/
+
+.btn {
+    padding: 9px;
+    background-color: #dad459;
+    color: #000;
+    border-radius: 6px;
+    box-shadow: 0px 20px black;
+    width: 70px;
+    height: 40px;
+    transition: transform 3s ease, box-shadow 0.3s ease, color 1s ease;
+
+}
+
+.btn:hover {
+    box-shadow: 0px 30px black;
+    color: #0a20af;
+    transform: scale(2);
+
+}
+
+
+/*9)შექმენი profile card:
+hover-ზე ფოტო rotateდეს 0.8s
+სახელი ფერში შეიცვალოს 0.3s
+card აიწიოს 0.5s
+ჩრდილი დაემატოს 1s
+shadow effect დაიწყოს 0.2s delay-ით*/

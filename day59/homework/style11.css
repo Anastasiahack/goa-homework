@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div_hover3 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(43, 255, 0);
+    transition: transform 0.5s ease;
+}
+
+.div_hover3:hover {
+    transform: scale(3) translateX(50px) rotate(45deg);
+    
+     
+}

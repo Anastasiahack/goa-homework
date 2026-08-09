@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.div1 {
+    border: 2px dotted;
+    width: 700px;
+    height: 200px;
+    display: flex;
+
+
+}
+
+.div11{
+    border: 1px solid red;
+    width: 200px;
+    height: 197px;
+    background-color: red;
+}
+
+
+.div12{
+    border: 1px solid rgb(19, 221, 19);
+    width: 200px;
+    height: 197px;
+    background-color: rgb(48, 199, 18);
+    position: absolute;
+    top:40px ;
+    left: 30px;
+}
+
+
+.div13{
+    border: 1px solid red;
+    width: 200px;
+    height: 197px;
+    background-color: red;
+}
+
+
+.div14{
+    border: 1px solid red;
+    width: 200px;
+    height: 197px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+

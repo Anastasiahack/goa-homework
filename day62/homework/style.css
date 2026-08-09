@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*1. ღილაკის Hover ანიმაცია (დამწყები)
+
+შექმენი ღილაკი, რომელიც მაუსის მიტანისას:
+
+იცვლის ფერს;
+იზრდება 10%-ით;
+ემატება ჩრდილი;
+ანიმაცია გრძელდება 0.3s.
+
+გამოიყენე:
+
+transition
+transform: scale()*/
+
+.button {
+
+    width: 200px;
+    padding: 35px;
+    border-radius: 6px;
+    color: yellow;
+    font-size: 30px;
+    background-color: black;
+    border: 6px dashed yellow;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.button:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/*2. მბრუნავი კვადრატი
+
+შექმენი კვადრატი, რომელიც:
+
+მუდმივად ბრუნავს 360°-ით;
+ერთი სრული ბრუნი გრძელდება 2 წამი;
+უსასრულოდ მეორდება.
+
+გამოიყენე:
+
+@keyframes
+animation
+transform: rotate()*/
+
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(115, 255, 0);
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/*3. ხტუნავი ბურთი
+
+შექმენი წრე, რომელიც:
+
+ზემოდან ქვემოთ ეშვება;
+შემდეგ ისევ ზემოთ ბრუნდება;
+მოძრაობა უწყვეტად მეორდება.
+
+გამოიყენე:
+
+translateY()
+animation-direction
+animation-iteration-count*/
+
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    animation: Circle 0.7s ease-in infinite alternate;
+}
+
+@keyframes Circle {
+    100% {
+        transform: translateY(200px);
+    }
+}
+
+
+/*4. Loading Spinner
+
+შექმენი Loader:
+
+წრიული საზღვრით;
+ერთი ნაწილი სხვა ფერის იყოს;
+მუდმივად ტრიალებდეს.*/
+
+.spinner {
+    height: 100px;
+    width: 100px;
+    border: 6px solid slateblue;
+    border-radius: 50px;
+    animation: spinner 1s linear infinite;
+    border-top: 6px solid transparent;
+}
+
+@keyframes spinner {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*5. Fade In ეფექტი
+
+როდესაც ელემენტი გამოჩნდება:
+
+თავიდან იყოს უხილავი (opacity: 0);
+ნელ-ნელა გახდეს ხილული;
+ამავე დროს ოდნავ ზემოდან ჩამოვიდეს.*/
+
+.img {
+    background: url('image.png') center / cover no-repeat;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.img:hover {
+    animation: animation 1s ease-out;
+}
+
+/*6. Pulse Animation
+
+შექმენი ღილაკი, რომელიც:
+
+პერიოდულად იზრდება;
+შემდეგ უბრუნდება საწყის ზომას;
+ქმნის "სუნთქვის" ეფექტს.*/
+
+
+.button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+
+    animation: animation 2s infinite ease-in-out;
+}
+
+
+@keyframes animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/*7. მოძრავი ტექსტი
+
+შექმენი ტექსტი, რომელიც:
+
+მარცხნიდან შემოდის;
+ჩერდება ცენტრში;
+ჩნდება Fade ეფექტით.*/
+
+.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+
+    animation: txt 1.5s ease-out;
+}
+
+
+@keyframes txt {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*8. მზის ამოსვლა
+
+შექმენი:
+
+ცა;
+მზე;
+მზე ქვემოდან ამოვიდეს;
+ცის ფერიც შეიცვალოს.*/
+
+
+/*ცა*/
+.div1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    animation: skyColorChange 5s ease-in-out forwards;
+}
+
+/*მზე*/
+.div2 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffd700;
+    border-radius: 50%;
+
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: sunRise 5s ease-in-out forwards;
+}
+
+
+@keyframes skyColorChange {
+    0% {
+        background-color: #1a1c2e;
+
+    }
+
+    50% {
+        background-color: #ff7e5f;
+
+    }
+
+    100% {
+        background-color: #87ceeb;
+
+    }
+}
+
+
+@keyframes sunRise {
+    0% {
+        transform: translate(-50%, 120px);
+
+    }
+
+    100% {
+        transform: translate(-50%, -200px);
+
+    }
+}

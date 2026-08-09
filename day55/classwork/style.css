@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: #ECF2FF;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteiner {
+    background-color: #FFFFFF;
+    width: 736px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.div1 {
+    background-color: rgb(18, 38, 151);
+    background: linear-gradient(#7755FF, #6943FF, #2F2CE9);
+    width: 368px;
+    height: 536px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+
+
+.heading1 {
+    margin-top: 38px;
+    color: #CAC9FF;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.num_div {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, #4D21C9, #3F21C9A4, #2521C900);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paragraf1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    font-family: "Hanken Grotesk", sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.paragraf2 {
+    color: #CAC9FF;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.h2_t {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+.text {
+    color: #CAC9FF;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    width: 260px;
+}
+
+.div2 {
+    padding: 40px;
+    width: 368px;
+    height: 512px;
+}
+
+.heading_S {
+    
+    color: #303B59;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+
+}
+
+
+
+span {
+    color: black;
+    font-weight: 700;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 288px;
+    height: 56px;
+    background-color: rgba(255, 0, 0, 0.173);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    padding: 15px;
+    font-family: "Hanken Grotesk", sans-serif;
+    border-radius: 8px;
+
+}
+
+.div100{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+.box1 {
+    background-color: rgba(255, 0, 0, 0.058);
+    color: red;
+
+}
+
+.box2 {
+    background-color: rgba(255, 255, 0, 0.052);
+    color: #FFB21E;
+}
+
+
+.box3 {
+    background-color: rgba(5, 249, 5, 0.058);
+    color: #00BB8F;
+
+}
+
+
+
+.box4 {
+    background-color: rgba(45, 62, 214, 0.058);
+    color: #1125D6;
+}
+
+.pargraf_color {
+    color: #303B59;
+    font-weight: 500;
+}
+
+.btn {
+    width: 288px;
+    height: 56px;
+    background: linear-gradient(to right, #7755FF, #6943FF, #2F2CE9);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 32px;
+    border: none;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.conteiner {
+    width: 600px;
+    height: 600px;
+    background: url('bainar.png') repeat-y bottom left / 80px;
+    border: 2px solid black;
+}
+
+

@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+}
+
+
+
+/*დავალება 2*/
+
+.main{
+    display: flex;
+    
+
+}
+
+
+
+.box {
+
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+
+.green {
+
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+    
+}
+
+
+
+
+
+
+
+/* დავალება 3 */
+
+.box-relative{
+    position: relative;
+    left: 40px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.dbox{
+    position: static;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+/* დავალება 4 */
+
+.parent{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.child{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* დავალება 5 */
+
+.parent2 {
+    width: 300px;
+    height: 300px;
+    background-color: #b5b8ba;
+    position: relative; 
+}
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(31, 61, 150);
+    position: absolute; 
+    top: 35%;
+    left: 35%;
+}
+
+/* დავალება 6  */
+
+.parent3{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 140px;
+    top: 80px;
+
+}
+
+/* დავალება 7 */
+
+.parent4 { 
+    width: 300px;
+    height: 300px;
+    background-color: #170606;
+    position: relative;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%; 
+    position: absolute; 
+}
+
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+/* დავალება 8 */
+
+.img-div{
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 50px;           
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*დავალება 2*/
