@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(228, 99%, 58%);
+    color: #ffffff;
+}
+
+
+.div1 {
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 10px;
+    height: 10px;
+    margin: 30px;
+    position: relative;
+
+}
+
+
+.icon-menu {
+
+    background-image: url(assets/images/icon-menu.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-left: 1400px;
+    transform: translateY(-50px);
+
+
+
+}
+
+
+
+.p1 {
+
+    margin: 16px;
+    transform: translateY(-21px);
+    font-family: sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+
+.grid-container {
+    display: grid;
+    /* იქმნება 3 სვეტი: პირველი სვეტი 2-ჯერ უფრო ფართოა (2fr), ვიდრე დანარჩენი ორი (1fr 1fr) */
+    grid-template-columns: 2fr 1fr 1fr;
+
+    /* იქმნება 2 თანაბარი სიმაღლის რიგი */
+    grid-template-rows: 1fr 1fr;
+
+    width: 100%;
+    min-height: 500px;
+    background-color: #2b55ff;
+    /* ლურჯი ფონი */
+}
+
+/* ყველა უჯრის ზოგადი სტილი და დაყოფის ხაზები */
+.grid-item {
+    padding: 30px;
+    /* თეთრი გამჭვირვალე ხაზები მარჯვნივ და ქვემოთ */
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* მთავარი საიდუმლო: მარცხენა დიდი ბლოკის გაჭიმვა 2 რიგზე */
+.item-large {
+    grid-row: span 2;
+    /* აიძულებს ელემენტს დაიკავოს 2 რიგი */
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    /* მარცხენა კიდის ხაზი */
+}
+
+.h1 {
+    font-size: 70px;
+    font-family: sans-serif;
+
+}
+
+.p2 {
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: #e3dada;
+
+}
+
+.div3 {
+    margin-top: 70px;
+}
+
+
+.divv1 {
+    background-image: url(assets/images/icon-sparkle.svg);
+    background-repeat: no-repeat;
+
+}
+
+.divv2 {
+
+    background-image: url(assets/images/icon-plus.svg);
+    background-repeat: no-repeat;
+
+}
+
+
+.divv3 {
+
+    background-image: url(assets/images/icon-arrow-right.svg);
+    background-repeat: no-repeat;
+
+}
+
+
+.divv4 {
+
+    background-image: url(assets/images/icon-trending-up.svg);
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+.divv5 {
+    background-image: url(assets/images/icon-close.svg);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    transform: translateY(-62px);
+
+
+
+
+}
+
+
+.div {
+    margin-top: 20px;
+}
+
+.heding {
+    margin-left: 260px;
+    transform: translateY(-34px);
+}
+
+
+.text1 {
+
+    margin-top: 100px;
+
+}
+
+
+.text2 {
+    margin-top: 100px;
+}
+
+
+.text2 {
+    margin-top: 100px;
+}
+
+
+.futer{
+
+    margin-top: 40px;
+    height: 200px ;
+}
+
+.p4{
+    margin-left: 1300px;
+    margin-bottom:15px ;
+}
+
+.p3{
+    margin-left: 30px;
+}
+
+.grid-container{
+    height: 560px;
+}
+
+

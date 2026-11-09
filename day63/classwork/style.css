@@ -13,6 +13,8 @@ body {
     padding-right: 165px;
     font-family: "Barlow", sans-serif;
     font-weight: 900;
+
+
 }
 
 .conteiner1 {
@@ -164,71 +166,89 @@ body {
 }
 
 
-.sections {
-    margin-top: 168px;
+.container5 {
     display: flex;
+    justify-content: center;
     gap: 30px;
+    padding: 20px;
+
+    /* ლოგიკა: translate(X-ღერძი, Y-ღერძი) */
+    transform: translate(80px, -150px);
+    /* 👈 ეს გადაწევს 165px-ით მარჯვნივ და 150px-ით ზემოთ! */
+
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
-.div_box {
-    display: flex;
-    flex-direction: column;
-    width: 255px;
-}
 
-.box1 {
+
+
+.icon {
+
     width: 65px;
     height: 65px;
     background-color: #F16718;
+    border: 2px solid #F16718;
     border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
     margin-bottom: 48px;
-    margin-right: 34px;
 
 }
 
-
-
-.h_box {
-    width: 255px;
-    height: 56px;
-    font-family: 'Barlow', sans-serif;
+h1 {
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
-    letter-spacing: 0px;
+    font-family: "Barlow", sans-serif;
+    color: #000;
 }
 
-.heding3 {
-    color: #162542;
-}
-
-.p3 {
-    margin-top: 24px;
-    width: 255px;
-    height: 130px;
+p {
     font-weight: 500;
     font-size: 16px;
+    line-height: 26px;
+    font-family: "Barlow", sans-serif;
     color: #7B8BAD;
+    margin-top: 24px;
+
+    /* 1. შრიფტი და ზომა */
+    font-family: 'Barlow', 'Inter', sans-serif;
+    /* ან შენი პროექტის შრიფტი */
+    font-size: 16px;
+    /* ტექსტის ზომა */
+    font-weight: 500;
+    /* ჩვეულებრივი სისქე (Regular) */
+
+    /* 2. ფერი და გასწორება */
+    color: #7B88A8;
+    /* რბილი მოცისფრო-ნაცრისფერი ფერი */
+    text-align: left;
+    /* ტექსტის მარცხნივ გასწორება */
+
+    /* 3. ინტერვალები (კითხვადობისთვის) */
+    line-height: 1.6;
+    /* სტრიქონებს შორის დაშორება (160%) */
+    letter-spacing: 0.2px;
+    /* ასოებს შორის მცირე დაშორება */
+
+    /* 4. ბლოკის ზომის შეზღუდვა */
+    max-width: 400px;
+    /* ზღუდავს სიგანეს, რომ ტექსტი ასე ლამაზად ჩამოიშალოს */
+    margin: 0;
+    /* აშორებს დეფოლტურ მარჯინებს */
 }
 
-.F_P {
-    text-align: center;
+.class {
+
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 26px;
     color: #7B8BAD;
-    margin-top: 128px;
+    font-family: "Barlow", sans-serif;
+    margin-left: 568px;
     margin-bottom: 39px;
-
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
 
 }

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+
+.header h1 {
+    color: gray;
+    padding: 19px;
+
+}
+
+
+.header p {
+    color: gray;
+    margin-top: 20px;
+
+}
+
+
+.card-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    background-color: white;
+    width: 364px;
+    height: 300px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 22px;
+    display: flex;
+    flex-direction: column;
+    border-top: 4px solid;
+}
+
+
+.card1 {
+    border-top-color: rgb(113, 205, 199);
+
+}
+
+.card2 {
+    border-top-color: rgb(225, 58, 88);
+}
+
+.card3 {
+    border-top-color: rgb(239, 208, 157);
+}
+
+.card4 {
+    border-top-color: rgb(118, 159, 186);
+}
+
+
+
+
+img {
+    width: 74px;
+    margin-top: 98px;
+    margin-left: 230px;
+    margin-bottom: 19px;
+
+}
+
+
+
+.p4 {
+    color: gray;
+    margin-top: 13px;
+}
+
+
+h3 {
+    margin-top: 9px;
+
+}
